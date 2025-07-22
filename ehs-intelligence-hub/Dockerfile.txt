@@ -1,0 +1,5 @@
+# This is a placeholder for Render
+# We'll use this later
+FROM nginx:alpine
+COPY frontend/build /usr/share/nginx/html
+EXPOSE 80
